@@ -8,7 +8,7 @@ let h2 = document.querySelector("h2");
 let btns = ["red", "pink", "blue", "green"];
 
 
-document.addEventListener("keypress", function () {
+document.addEventListener("click", function () {
     if (started == false) {
         console.log("game is started");
         started = true;
