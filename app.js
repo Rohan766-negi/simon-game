@@ -80,3 +80,9 @@ function reset(){
     userseq=[];
     level=0;
 }
+function highscores(score){
+    if(score>highscore){
+        highscore=score;
+        document.getElementById("highscore").innerText=highscore;
+    } 
+}
