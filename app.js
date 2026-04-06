@@ -51,6 +51,7 @@ function check(idx){
     }
     else{
         h2.innerText=`Game over at level :your score is ${level}  press any key to start again `;
+        highscores(level-1);
         document.querySelector("body").style.backgroundColor="red";
         setTimeout(function(){
             document.querySelector("body").style.backgroundColor="white";
